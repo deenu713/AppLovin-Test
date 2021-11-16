@@ -1,4 +1,4 @@
-name: Android CI
+name: Debug Apk
 
 on:
   # push:
@@ -30,7 +30,7 @@ jobs:
       - name: Build debug apk
         uses: eskatos/gradle-command-action@v1
         with:
-          arguments: gradle build
+          arguments: assembleDebug
           distributions-cache-enabled: true
           dependencies-cache-enabled: true
           configuration-cache-enabled: true
