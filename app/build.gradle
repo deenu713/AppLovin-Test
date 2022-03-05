@@ -2,8 +2,8 @@ apply plugin: 'com.android.application'
 //apply plugin: 'com.google.gms.google-services'  // Google Services Plugin
 
 android {
-    compileSdkVersion 32
-    buildToolsVersion "32.0.0"
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.test"
@@ -33,7 +33,7 @@ android {
 dependencies {
 implementation 'com.android.tools.build:bundletool:1.8.2'
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
     implementation 'com.google.android.material:material:1.4.0'
 //implementation 'com.scottyab:rootbeer-lib:0.1.0'
 
