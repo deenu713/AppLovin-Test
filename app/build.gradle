@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 //apply plugin: 'applovin-quality-service'
 //applovin {
       // apiKey "YOUR_AD_REVIEW_KEY_HERE"    
-/}
+//}
 
 android {
     compileSdkVersion 32
