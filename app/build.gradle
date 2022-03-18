@@ -2,8 +2,8 @@ apply plugin: 'com.android.application'
 //apply plugin: 'com.google.gms.google-services'  // Google Services Plugin
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    compileSdkVersion 32
+    buildToolsVersion "32.0.0"
 
     defaultConfig {
         applicationId "com.test"
