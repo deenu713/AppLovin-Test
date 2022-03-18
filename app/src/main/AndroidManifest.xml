@@ -11,6 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"
 android:exported="true">
+<meta-data android:name="applovin.sdk.key"
+           android:value="YOUR_SDK_KEY_HERE"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
