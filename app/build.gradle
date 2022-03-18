@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 //apply plugin: 'com.google.gms.google-services'  // Google Services Plugin
+apply plugin: 'applovin-quality-service'
+applovin {
+       apiKey "YOUR_AD_REVIEW_KEY_HERE"    
+}
 
 android {
     compileSdkVersion 32
