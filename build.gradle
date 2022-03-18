@@ -7,7 +7,7 @@ buildscript {
         maven { url "https://clojars.org/repo/" }
         maven { url "https://jitpack.io" }
 		maven { url 'https://repo.jenkins-ci.org/public/'}
-     
+     maven { url 'https://artifacts.applovin.com/android' }
         google()
         mavenLocal()
         mavenCentral()
@@ -29,7 +29,7 @@ allprojects {
         maven { url "https://clojars.org/repo/" }
         maven { url "https://jitpack.io" }
 		maven { url 'https://repo.jenkins-ci.org/public/'}
-     
+     maven { url 'https://artifacts.applovin.com/android' }
         mavenLocal()
         mavenCentral()
         google()
